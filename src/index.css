@@ -8,50 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 248 250 252;
-    --foreground: 15 23 42;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
 
     --card: 0 0% 100%;
-    --card-foreground: 15 23 42;
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 15 23 42;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 220 90% 56%;
+    --primary: 0 0% 0%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 90% 66%;
+    --primary-glow: 0 0% 20%;
 
-    --secondary: 220 13% 91%;
-    --secondary-foreground: 15 23 42;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 220 13% 91%;
-    --muted-foreground: 100 11% 46%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 220 13% 91%;
-    --accent-foreground: 15 23 42;
+    --accent: 0 0% 95%;
+    --accent-foreground: 0 0% 0%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 0% 20%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 90% 56%;
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 0 0% 0%;
 
-    --success: 142 71% 45%;
+    --success: 0 0% 30%;
     --success-foreground: 0 0% 100%;
     
-    --warning: 38 92% 50%;
+    --warning: 0 0% 25%;
     --warning-foreground: 0 0% 100%;
     
-    --info: 199 89% 48%;
+    --info: 0 0% 35%;
     --info-foreground: 0 0% 100%;
 
     /* Assessment specific colors */
-    --assessment-intro: 220 90% 56%;
-    --assessment-psycho: 142 71% 45%;
-    --assessment-technical: 267 84% 81%;
-    --assessment-wiscar: 38 92% 50%;
-    --assessment-results: 199 89% 48%;
+    --assessment-intro: 0 0% 0%;
+    --assessment-psycho: 0 0% 20%;
+    --assessment-technical: 0 0% 30%;
+    --assessment-wiscar: 0 0% 25%;
+    --assessment-results: 0 0% 35%;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
@@ -85,41 +85,58 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 0 0% 10%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 0% 80%;
+    --destructive-foreground: 0 0% 0%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 0 0% 15%;
+    --input: 0 0% 10%;
+    --ring: 0 0% 100%;
+    
+    --success: 0 0% 70%;
+    --success-foreground: 0 0% 0%;
+    
+    --warning: 0 0% 75%;
+    --warning-foreground: 0 0% 0%;
+    
+    --info: 0 0% 65%;
+    --info-foreground: 0 0% 0%;
+
+    /* Assessment specific colors */
+    --assessment-intro: 0 0% 100%;
+    --assessment-psycho: 0 0% 80%;
+    --assessment-technical: 0 0% 70%;
+    --assessment-wiscar: 0 0% 75%;
+    --assessment-results: 0 0% 65%;
+    
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 0 0% 100%;
   }
 }
 
